@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  background-color: black;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 100vh;
+}
+
+.scene {
+  width: 60%;
+}
+
+#scene-1 {
+  position: absolute;
+  z-index: 999;
+}
+
+#scene-2 {
+  position: absolute;
+  z-index: 998;
+}
